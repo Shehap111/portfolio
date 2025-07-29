@@ -373,7 +373,18 @@ font-size: 50px;
     padding: 30px;
     border-radius: 5px;
     background-color: var(--second-bg );
-    height: 400px;
+    height: auto;
+    min-height: 450px;
+}
+.cardd .Live_Preview{
+    padding: 10px 20px;
+    background-color: #eaa451;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
 }
 .cardd img{
     border-radius:  10px;
@@ -391,6 +402,7 @@ font-size: 50px;
 .cardd .card_body p {
     color: #666;
     padding-top: 10px;
+    height: 90px;
 }
 
 .element-item img {
@@ -613,9 +625,10 @@ font-size: 50px;
 }
 
 .navbar-brand img {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 50px;
     display: block;
+    margin-top: -5px;
     transition: all 0.3s ease-out;
 }
 
